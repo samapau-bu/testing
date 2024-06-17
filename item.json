@@ -1,0 +1,16 @@
+{
+  "topics": [
+    {"id": 1, "name": "JavaScript", "category": "topics"},
+    {"id": 2, "name": "React", "category": "topics"},
+    {"id": 3, "name": "Node.js", "category": "topics"},
+    {"id": 4, "name": "TypeScript", "category": "topics"},
+    {"id": 5, "name": "HTML5", "category": "topics"}
+  ],
+  "preferences": [
+    {"id": 6, "name": "Dark Mode", "category": "preferences"},
+    {"id": 7, "name": "Auto Save", "category": "preferences"},
+    {"id": 8, "name": "Notifications", "category": "preferences"},
+    {"id": 9, "name": "Privacy", "category": "preferences"},
+    {"id": 10, "name": "Sync", "category": "preferences"}
+  ]
+}
