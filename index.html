@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Sam's Portfolio</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#gallery">Photo Gallery</a></li>
+      <li><a href="#drag&drop">Drag&Drop</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Home</h2>
+  <p>Hello and welcome to my portfolio! I'm Samuel Apau, a passionate software engineer with a knack for problem-solving and a love for technology. Here, you can learn more about me, explore my interests, and view my professional resume. Let's connect and create something amazing together!
+  </p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hi, I'm Samuel Apau, a software engineer with over 7 years of experience in developing innovative solutions for complex problems. I hold a Bachelor's degree in Accounting from George Mason University and have worked as a consultant with leading  companies, including IBM and PriceWaterHouseCoopers.
+
+    My journey in technology started at a young age, tinkering with computers and writing my first lines of code in middle school. Over the years, I have honed my skills in various programming languages, frameworks, and tools. I'm particularly passionate about artificial intelligence, machine learning, and cloud computing.
+
+    When I'm not coding, you can find me exploring the outdoors, reading science fiction, or experimenting with the latest tech gadgets. My goal is to leverage technology to make a positive impact on the world and inspire others to pursue their passions in tech.
+  </p>
+</section>
+
+<section id="interests">
+  <h2>Interests</h2>
+  <div class="interest">
+    <h3>Web Development</h3>
+    <p>I enjoy creating intuitive and responsive web applications using the latest technologies such as React, Angular, and Vue.js. My focus is on creating seamless user experiences and efficient, scalable code.</p>
+  </div>
+  <div class="interest">
+    <h3>Artificial Intelligence</h3>
+    <p>AI fascinates me, especially in the areas of machine learning, natural language processing, and computer vision. I have worked on several projects involving predictive analytics and automated decision-making systems.</p>
+  </div>
+  <div class="interest">
+    <h3>Open Source Contribution</h3>
+    <p>I believe in the power of community and collaboration. I actively contribute to open-source projects on GitHub, and I am always looking for new opportunities to give back to the community and improve my skills.</p>
+  </div>
+  <div class="interest">
+    <h3>Game Development</h3>
+    <p>Creating immersive and engaging games is a passion of mine. I enjoy working with game engines like Unity and Unreal Engine to bring ideas to life, focusing on gameplay mechanics and graphics.</p>
+  </div>
+  <div class="interest">
+    <h3>Cybersecurity</h3>
+    <p>Securing applications and data is crucial in today's digital world. I stay updated with the latest security practices and technologies to ensure the systems I work on are robust and protected against threats.</p>
+  </div>
+</section>
+
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid-container">
+    <div class="project" data-type="web">
+      <h2>Project 1</h2>
+      <a href="https://github.com/samapau-bu/asynchronous-web-development/blob/main/web.jpg">
+        <img src="img/web.jpg" alt="Web Development" style="max-width: 100%; height: auto;">
+      </a>
+    </div>
+    <div class="project" data-type="app">
+      <h3>Project 2</h3>
+      <a href="https://github.com/samapau-bu/asynchronous-web-development/blob/main/app.png">
+        <img src="img/app.png" alt="App Development" style="max-width: 100%; height: auto;">
+      </a>
+
+    </div>
+    <div class="project" data-type="design">
+      <h4>Project 3</h4>
+      <a href="https://github.com/samapau-bu/asynchronous-web-development/blob/main/design.png">
+        <img src="img/design.png" alt="Graphic Design" style="max-width: 100%; height: auto;">
+      </a>
+    </div>
+    <div class="project" data-type="mobile">
+      <h3>Project 4</h3>
+      <a href="https://github.com/samapau-bu/asynchronous-web-development/blob/main/mobile.png">
+        <img src="img/mobile.png" alt="Mobile Development" style="max-width: 100%; height: auto;">
+      </a>
+    </div>
+  </div>
+  <div id="root"></div>
+
+  <!-- React and ReactDOM via CDN -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone/babel.min.js"></script>
+
+  <!-- Your React Component Script -->
+  <script type="text/babel" src="projectButtons.js"></script>
+
+</section>
+
+
+<section id="resume">
+  <h2>Resume</h2>
+  <header>
+    <h1>Samuel Apau</h1>
+    <p>Software Engineer</p>
+    <p>Email: samapau@bu.edu | Phone: (302)334-2029 | Location: Berlin, CT</p>
+  </header>
+</section>
+
+<section>
+  <h2>Summary</h2>
+  <p>Experienced software engineer with a strong background in developing scalable web applications and working with cross-functional teams. Proficient in multiple programming languages and frameworks with a focus on delivering high-quality code.</p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="job">
+    <h3>Senior Software Engineer</h3>
+    <p>XYZ Tech, San Francisco, CA</p>
+    <p>January 2020 - Present</p>
+    <ul>
+      <li>Lead the development of a new e-commerce platform using React, Node.js, and MongoDB.</li>
+      <li>Mentored junior developers and conducted code reviews to ensure best practices.</li>
+      <li>Implemented CI/CD pipelines using Jenkins, Docker, and Kubernetes.</li>
+    </ul>
+  </div>
+  <div class="job">
+    <h3>Software Engineer</h3>
+    <p>ABC Corp, San Francisco, CA</p>
+    <p>June 2016 - December 2019</p>
+    <ul>
+      <li>Developed RESTful APIs in Python and integrated them with frontend applications.</li>
+      <li>Worked closely with product managers to define and implement new features.</li>
+      <li>Improved application performance by optimizing SQL queries and data caching strategies.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="education">
+    <h3>Bachelor of Science in Accounting</h3>
+    <p>George Mason University, Fairfax VA</p>
+    <p>Graduated: May 2011</p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>Programming Languages: JavaScript, Python, Java, C++</li>
+    <li>Frameworks: React, Node.js, Express, Django</li>
+    <li>Tools: Git, Docker, Jenkins, Kubernetes</li>
+    <li>Databases: MongoDB, MySQL, PostgreSQL</li>
+  </ul>
+</section>
+
+
+
+
+<section id="gallery">
+  <h2>Photo Gallery</h2>
+  <div id="photos"></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="form-container">
+    <h1>Contact Me</h1>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName">
+        <span class="error-message" id="firstNameError"></span>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+        <span class="error-message" id="lastNameError"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <span class="error-message" id="emailError"></span>
+      </div>
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select id="category" name="category">
+          <option value="">Select an option</option>
+          <option value="General Inquiry">General Inquiry</option>
+          <option value="Employment">Employment</option>
+          <option value="Software Development">Software Development</option>
+          <option value="Other">Other</option>
+        </select>
+        <span class="error-message" id="categoryError"></span>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result" class="hidden"></div>
+  </div>
+
+
+
+  <p>
+    I'd love to hear from you! Whether you have a project in mind, want to collaborate, or just want to say hello, feel free to reach out.
+    **Contact Information:**
+    - Email: samapau@bu.edu
+  </p>
+</section>
+
+<section id="links">
+  Stay connected and follow my latest updates on LinkedIn and GitHub. Let's build something incredible together!
+  <h2>Links</h2>
+  <ul>
+    <li><a href="http://localhost:63342/termportfolio/src/index.html?_ijt=2pt6pfusl6gfkd03dpskijijml&_ij_reload=RELOAD_ON_SAVE">Portfolio</a></li>
+    <li><a href="https://github.com/samapau-bu?tab=repositories">GitHub</a></li>
+    <li><a href="https://www.youtube.com/watch?v=gYzHS-n2gqU&list=RDQM8WqflICS6R8&start_radio=1">Youtube</a></li>
+    <li><a href="https://www.linkedin.com/login">LinkedIn</a></li>
+  </ul>
+</section>
+<section id="drag&drop" >
+  <h2>Drag&Drop</h2>
+  <link rel="stylesheet" href="styles.css">
+  <div id="app">
+    <div class="container">
+      <div id="topics" class="dropzone">
+        <h2>Topics</h2>
+        <ul id="topics-list"></ul>
+        <div class="drop-zone" id="topics-drop-zone"></div>
+      </div>
+      <div class="drop-zone-container">
+        <div id="preferences" class="dropzone">
+          <h2>Preferences</h2>
+          <ul id="preferences-list"></ul>
+          <div class="drop-zone" id="preferences-drop-zone"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</section>
+
+<footer>
+  <p>&copy; 2024 Samuel Apau. All rights reserved.</p>
+</footer>
+</body>
+</html>
